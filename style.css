@@ -1,0 +1,586 @@
+.item1 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(148, 11, 11);
+}
+
+.para {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  left: 150px;
+  text-align: center;
+  top: -4px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.textbox {
+  position: absolute;
+  left: 830px;
+  top: 20px;
+}
+
+.login {
+  height: 30px;
+  width: 40px;
+  background-color: transparent;
+  border: transparent;
+  color: white;
+}
+
+.create {
+  height: 20px;
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+h1 {
+  position: absolute;
+  font-weight: bold;
+  left: 150px;
+}
+
+.item2 {
+  height: 400px;
+  width: 200px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px rgb(189, 180, 180);
+  position: absolute;
+  top: 130px;
+  left: 150px;
+}
+
+h2 {
+  top: -10px;
+  left: 12px;
+  position: absolute;
+}
+
+h4 {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+}
+
+select {
+  position: absolute;
+  top: 60px;
+  left: 12px;
+}
+
+.para1 {
+  position: absolute;
+  top: 70px;
+  left: 12px;
+}
+
+.para2 {
+  position: absolute;
+  top: 200px;
+  left: 12px;
+}
+
+.para3 {
+  position: absolute;
+  top: 320px;
+  left: 12px;
+}
+
+.item3 {
+  position: absolute;
+  height: 170px;
+  width: 500px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px rgb(173, 146, 146);
+  left: 380px;
+  top: 130px;
+}
+
+.food1 {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  top: 20px;
+  left: 20px;
+}
+
+h3 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  left: 140px;
+  top: -4px;
+}
+
+h5 {
+  position: absolute;
+  left: 140px;
+  top: 20px;
+  font-size: 15px;
+}
+
+.line1 {
+  position: absolute;
+  left: 140px;
+  top: 60px;
+  font-size: 10px;
+}
+
+.line2 {
+  position: absolute;
+  width: 480px;
+  border: 1px solid rgb(181, 167, 167);
+  top: 100px;
+  left: 10px;
+}
+
+.head1 {
+  position: absolute;
+  left: 20px;
+  top: 105px;
+}
+
+.head2 {
+  position: absolute;
+  left: 150px;
+  top: 105px;
+}
+
+.item4 {
+  position: absolute;
+  height: 170px;
+  width: 500px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px rgb(173, 146, 146);
+  left: 380px;
+  top: 310px;
+}
+
+.food2 {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  top: 20px;
+  left: 20px;
+}
+
+.font1 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  left: 150px;
+  top: 10px;
+}
+
+.font2 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  left: 150px;
+  top: 45px;
+}
+
+.font3 {
+  position: absolute;
+  font-size: 10px;
+  left: 150px;
+  top: 70px;
+}
+
+.line3 {
+  position: absolute;
+  width: 480px;
+  border: 1px solid rgb(173, 146, 146);
+  left: 10px;
+  top: 100px;
+}
+
+.line4 {
+  position: absolute;
+  left: 20px;
+  top: 100px;
+}
+
+.line5 {
+  position: absolute;
+  left: 150px;
+  top: 100px;
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6, .a7 {
+  position: relative;
+  left: 500px;
+  top: 450px;
+  border-radius: 5px;
+}
+
+.filters {
+  display: none;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .item1 {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(148, 11, 11);
+  }
+  .para {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    left: 80px;
+    text-align: center;
+    top: -4px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .textbox {
+    position: absolute;
+    left: 500px;
+    top: 20px;
+  }
+  .login {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    left: 60px;
+    top: -5px;
+    position: absolute;
+    color: white;
+    border: transparent;
+  }
+  .create {
+    height: 20px;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid white;
+    left: 100px;
+    position: absolute;
+  }
+  h1 {
+    position: absolute;
+    font-weight: bold;
+    left: 160px;
+  }
+  .filters {
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    height: 50px;
+    width: 450px;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px 2px rgb(170, 167, 167);
+    display: flex;
+  }
+  .item2 {
+    display: none;
+  }
+  .item3 {
+    position: absolute;
+    height: 170px;
+    width: 450px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgb(173, 146, 146);
+    left: 160px;
+    top: 180px;
+    display: flex;
+  }
+  .food1 {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    top: 20px;
+    left: 20px;
+  }
+  h3 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    left: 140px;
+    top: -4px;
+  }
+  h5 {
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    font-size: 15px;
+  }
+  .line1 {
+    position: absolute;
+    left: 140px;
+    top: 60px;
+    font-size: 10px;
+  }
+  .line2 {
+    position: absolute;
+    width: 430px;
+    border: 1px solid rgb(181, 167, 167);
+    top: 100px;
+    left: 10px;
+  }
+  .head1 {
+    position: absolute;
+    left: 20px;
+    top: 105px;
+  }
+  .head2 {
+    position: absolute;
+    left: 150px;
+    top: 105px;
+  }
+  .item4 {
+    position: absolute;
+    height: 170px;
+    width: 450px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgb(173, 146, 146);
+    left: 160px;
+    top: 360px;
+    display: flex;
+  }
+  .food2 {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    top: 20px;
+    left: 20px;
+  }
+  .font1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    left: 150px;
+    top: 10px;
+  }
+  .font2 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    left: 150px;
+    top: 45px;
+  }
+  .font3 {
+    position: absolute;
+    font-size: 10px;
+    left: 150px;
+    top: 70px;
+  }
+  .line3 {
+    position: absolute;
+    width: 430px;
+    border: 1px solid rgb(173, 146, 146);
+    left: 10px;
+    top: 100px;
+  }
+  .line4 {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+  }
+  .line5 {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+  }
+  .a1, .a2, .a3, .a4, .a5, .a6, .a7 {
+    position: relative;
+    left: 230px;
+    top: 500px;
+    border-radius: 5px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .item1 {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(148, 11, 11);
+  }
+  .para {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    top: -4px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .textbox {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+  }
+  .login {
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    left: 60px;
+    top: -5px;
+    position: absolute;
+    color: white;
+    border: transparent;
+  }
+  .create {
+    height: 20px;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid white;
+    left: 100px;
+    position: absolute;
+  }
+  h1 {
+    position: absolute;
+    font-weight: bold;
+    left: 40px;
+  }
+  .filters {
+    position: absolute;
+    left: 40px;
+    top: 160px;
+    height: 50px;
+    width: 250px;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px 2px rgb(170, 167, 167);
+    display: flex;
+  }
+  .item2 {
+    display: none;
+  }
+  .item3 {
+    position: absolute;
+    height: 230px;
+    width: 250px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgb(173, 146, 146);
+    left: 40px;
+    top: 230px;
+  }
+  .food1 {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    top: 10px;
+    left: 80px;
+  }
+  h3 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    left: 50px;
+    top: 80px;
+  }
+  h5 {
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    font-size: 13px;
+  }
+  .line1 {
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    font-size: 10px;
+  }
+  .line2 {
+    position: absolute;
+    width: 230px;
+    border: 1px solid rgb(181, 167, 167);
+    top: 160px;
+    left: 10px;
+  }
+  .head1 {
+    position: absolute;
+    left: 20px;
+    top: 160px;
+  }
+  .head2 {
+    position: absolute;
+    left: 150px;
+    top: 160px;
+  }
+  .item4 {
+    position: absolute;
+    height: 230px;
+    width: 250px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgb(173, 146, 146);
+    left: 40px;
+    top: 480px;
+  }
+  .food2 {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    top: 20px;
+    left: 80px;
+  }
+  .font1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    left: 70px;
+    top: 85px;
+  }
+  .font2 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    left: 70px;
+    top: 105px;
+  }
+  .font3 {
+    position: absolute;
+    font-size: 10px;
+    left: 60px;
+    top: 130px;
+  }
+  .line3 {
+    position: absolute;
+    width: 230px;
+    border: 1px solid rgb(173, 146, 146);
+    left: 10px;
+    top: 160px;
+  }
+  .line4 {
+    position: absolute;
+    left: 20px;
+    top: 150px;
+  }
+  .line5 {
+    position: absolute;
+    left: 150px;
+    top: 150px;
+  }
+  .a1, .a2, .a3, .a4, .a5, .a6, .a7 {
+    position: relative;
+    left: 60px;
+    top: 700px;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=style.css.map */
